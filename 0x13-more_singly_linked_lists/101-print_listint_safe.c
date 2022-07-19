@@ -22,6 +22,7 @@ void free_listp(listp_t **head)
 		*head = NULL;
 	}
 }
+
 /**
  * print_listint_safe - prints a linked list.
  * @head: head of a list.
@@ -66,3 +67,4 @@ size_t print_listint_safe(const listint_t *head)
 	free_listp(&hptr);
 	return (nnodes);
 }
+
